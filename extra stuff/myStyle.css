@@ -1,0 +1,55 @@
+<style>
+            body {
+                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Upz8RiGjTHrcW4V0uG1jLXoee6FYu6yoQ31Ne3zBqrA0WrSUKA");
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+            /* navigation menu */
+            nav {
+                background: rgb(120, 220, 220);
+                margin: 0 auto;
+                margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(0, 0, 0);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+            
+            /* main container area beneath menu */
+            main {
+                background: rgb(255, 255, 255);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            .interests header {
+                font-size: 1.25em;
+            }
+</style>
